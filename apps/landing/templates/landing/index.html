@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'landing/styles/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        {% for content in contents %}
+            <div class="content-left">
+                {{ content.title }}
+            </div>
+            <div class="content-right">{{ content.logo.url }}
+                <img src="{{ content.logo.logo.url }}" alt="">
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

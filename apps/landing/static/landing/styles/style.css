@@ -1,0 +1,14 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.content-left{
+    font-size: 60px;
+}
+.content-right > img{
+    width: 250px;
+    height: 250px;
+}
