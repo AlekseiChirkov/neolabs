@@ -23,6 +23,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     path('', include('apps.landing.urls')),
+    path('api/products/', include('apps.product.urls')),
+    path('api/blog/', include('apps.blog.urls')),
+    path('api/auth/', include('rest_framework.urls')),
 ]
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

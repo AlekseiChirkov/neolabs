@@ -1,10 +1,10 @@
 from django.urls import path
 
-from apps.landing.views import IndexPageView
+from apps.landing.views import PostFormView
 
 
 app_name = 'landing'
 
 urlpatterns = [
-    path('', IndexPageView.as_view(), name='index'),
+    path('home/', PostFormView.as_view(), name='index'),
 ]
