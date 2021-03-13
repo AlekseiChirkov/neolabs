@@ -16,6 +16,10 @@
                 <img src="{{ content.logo.logo.url }}" alt="">
             </div>
         {% endfor %}
+        <form action="" method="post"> {% csrf_token %}
+            <input type="text" name="title">
+            <button type="submit">Submit</button>
+        </form>
     </div>
 </body>
 </html>
