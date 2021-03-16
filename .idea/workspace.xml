@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75955495-ffa5-4128-a975-7caef3dfe8e5" name="Default Changelist" comment="" />
+    <list default="true" id="75955495-ffa5-4128-a975-7caef3dfe8e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/product/tests/model_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/product/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +57,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/apps/product/tests" />
       <recent name="$PROJECT_DIR$/apps" />
       <recent name="$PROJECT_DIR$/apps/landing/static/landing/styles" />
     </key>
@@ -85,6 +104,8 @@
       <workItem from="1615465810145" duration="5817000" />
       <workItem from="1615531010336" duration="69000" />
       <workItem from="1615611687973" duration="4622000" />
+      <workItem from="1615780786140" duration="591000" />
+      <workItem from="1615897504159" duration="7274000" />
     </task>
     <servers />
   </component>
