@@ -23,7 +23,7 @@ class PostSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Post
-        fields = ['id', 'title', 'description', 'owner', 'author', 'category']
+        fields = ['id', 'title', 'description', 'owner', 'date', 'is_active', 'author', 'category']
 
     def create(self, validated_data):
         author_data = validated_data.pop('author')
